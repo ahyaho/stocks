@@ -1,5 +1,5 @@
 Test locally:
-```
+```bash
 git clone https://github.com/ahyaho/stocks.git
 cd stocks
 virtualenv -p python3 .venv
