@@ -1,13 +1,5 @@
 import os
-
 from setuptools import setup, find_packages
-
-here = os.path.abspath(os.path.dirname(__file__))
-
-
-def req_from_file(filename):
-    fpath = os.path.join(here, filename)
-    return [i.strip() for i in open(fpath).readlines()]
 
 
 setup(name='stocks',
